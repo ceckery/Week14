@@ -1,0 +1,25 @@
+<div id="movie-list"></div>
+
+<template id="movie-template">
+  <div class="movie">
+    <img class="movie-image">
+    <h2 class="movie-title"></h2>
+    <p class="movie-synopsis"></p>
+    <div class="movie-rating">
+      <stars></stars>
+      <span class="movie-rating-count"></span>
+    </div>
+    <div class="review-list"></div>
+    <form class="review-form">
+      <label for="review-text">Leave a review:</label>
+      <textarea id="review-text"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</template>
+
+<template id="review-template">
+  <div class="review">
+    <p class="review-text"></p>
+  </div>
+</template>
