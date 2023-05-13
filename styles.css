@@ -1,0 +1,51 @@
+.movie {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.movie-image {
+  width: 200px;
+  height: 300px;
+}
+
+.movie-rating {
+  display: flex;
+  align-items: center;
+}
+
+.movie-rating-count {
+  margin-left: 10px;
+}
+
+.stars {
+  display: inline-flex;
+}
+
+.star {
+  width: 20px;
+  height: 20px;
+  background-image: url(star.png);
+  background-size: contain;
+  cursor: pointer;
+}
+
+.star:hover, .star.selected {
+  background-position: 0 -20px;
+}
+
+.review-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.review-form textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 5px;
+}
+
+.review-form button {
+  display: block;
+  margin-top: 5px;
+}
